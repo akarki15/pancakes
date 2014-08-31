@@ -51,9 +51,9 @@ public class GamePlay : MonoBehaviour {
 					swap (counter, i-counter);
 		won=check();
 		if (won) {
-
-			Debug.Log("Hey you won the game!");
-//			MyDelay(5);
+			print ("A");
+			StartCoroutine(wait(5.0F));
+			print ("B");
 			Application.LoadLevel("winscene");
 					
 		}
@@ -71,9 +71,8 @@ public class GamePlay : MonoBehaviour {
 		cakes [i] = cakes [j];
 		cakes [j] = temp;
 	}
-//	public static void MyDelay( int seconds )
-//	{
-//		float t = Time.time+seconds;		
-//		do {} while ( Time.time < t );
-//	}
+	// This coroutine lets the animation finish before changing the scene 
+	IEnumerator wait(float waitTime){
+		yield return new WaitForSeconds (waitTime);
+	}	
 }	
