@@ -40,23 +40,23 @@ public class GamePlay : MonoBehaviour {
 
 	// Handles Animations for flip	
 	public void flip(int i){
-		for (int counter =0; counter<=i; counter++) {
-			Vector3 position = new Vector3 (0, -(i-counter)*2, 0);
-			cakes [counter].GetComponent<PanProperties> ().animate (position);
-			cakes [counter].GetComponent<PanProperties> ().position = i - counter; 		
+		if (!won) { // Don't want the pancakes to animate when the user taps them after having won
+				for (int counter =0; counter<=i; counter++) {
+						Vector3 position = new Vector3 (0, -(i - counter) * 2, 0);
+						cakes [counter].GetComponent<PanProperties> ().animate (position);
+						cakes [counter].GetComponent<PanProperties> ().position = i - counter; 		
+				}
+
+				// Update cakes[]
+				for (int counter =0; counter<=(i/2); counter++)
+						swap (counter, i - counter);
+
+			won = check ();
+			if (won) {
+				StartCoroutine(wait(0.7F));					
+			}
 		}
 
-		// Update cakes[]
-		for (int counter =0; counter<=(i/2); counter++)
-					swap (counter, i-counter);
-		won=check();
-		if (won) {
-			print ("A");
-			StartCoroutine(wait(5.0F));
-			print ("B");
-			Application.LoadLevel("winscene");
-					
-		}
 	}
 
 	bool check(){
@@ -74,5 +74,6 @@ public class GamePlay : MonoBehaviour {
 	// This coroutine lets the animation finish before changing the scene 
 	IEnumerator wait(float waitTime){
 		yield return new WaitForSeconds (waitTime);
+		Application.LoadLevel("winscene");
 	}	
 }	
