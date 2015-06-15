@@ -6,4 +6,4 @@ This is source code for Pancakes Sort game I wrote based on Pancake sorting algo
 * https://play.google.com/store/apps/details?id=com.Company.pancakes
 
 #### Code Description: 
-* https://github.com/akarki15/pancakes/blob/master/Assets/Scripts/Main/README.md
+* https://github.com/akarki15/pancakes/blob/master/Assets/Scripts/Main
