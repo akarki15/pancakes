@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Main\AnimationHandler.cs" />
      <Compile Include="Assets\Scripts\Main\GamePlay.cs" />
      <Compile Include="Assets\Scripts\Main\PanProperties.cs" />
      <Compile Include="Assets\Scripts\Main\Player.cs" />
