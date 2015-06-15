@@ -1,12 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scene1/buttonListener.cs">
     <Files>
-      <File FileName="Assets/Scripts/Main/GamePlay.cs" Line="56" Column="28" />
-      <File FileName="Assets/Scripts/Main/AnimationHandler.cs" Line="35" Column="36" />
-      <File FileName="Assets/Scripts/Scene1/buttonListener.cs" Line="21" Column="18" />
-      <File FileName="Assets/Scripts/Main/PanProperties.cs" Line="27" Column="49" />
-      <File FileName="Assets/Scripts/Scene1/userSettings.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/Main/PanProperties.cs" Line="43" Column="109" />
+      <File FileName="Assets/Scripts/Main/GamePlay.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/Scene1/userSettings.cs" Line="4" Column="31" />
+      <File FileName="Assets/Scripts/winscreen/buttonListner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scene1/buttonListener.cs" Line="35" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

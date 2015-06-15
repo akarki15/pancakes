@@ -4,7 +4,7 @@ using System.Collections;
 public class GamePlay : MonoBehaviour {
 	// GamePlay stores the type of the game, initializes the pancake objects, and handles animation and game-objective-checks
 
-	// upperlimit stores the maximum size of pancake possible, lowerLimit stores the minimum
+	// upperLimit stores the maximum size of pancake possible, lowerLimit stores the minimum
 	public int upperLimit;
 	public int lowerLimit;
 	public int size;
@@ -14,7 +14,7 @@ public class GamePlay : MonoBehaviour {
 	// won stores if the game has been won or not
 	private bool won;
 
-	// Init
+	// Initialization
 	void Start () {
 		userSettings = GameObject.FindGameObjectsWithTag ("userSettings")[0];
 		size = userSettings.GetComponent<userSettings>().size;
@@ -27,7 +27,6 @@ public class GamePlay : MonoBehaviour {
 
 
 	public GameObject prefab;
-	public GameObject anim;
 
 	// Create the pancakes and give a random length betweeen [lowerLimti, upperLimit]
 	void draw(){

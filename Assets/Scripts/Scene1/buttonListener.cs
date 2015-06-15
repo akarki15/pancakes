@@ -2,18 +2,9 @@
 	using System.Collections;
 
 	public class buttonListener : MonoBehaviour {
-
+		// General class attached to various buttons. Does different things based on which button this script is attached to.
 		public GameObject userSettings;
-
-		// Use this for initialization
-		void Start () {
-		}
-		
-		// Update is called once per frame
-		void Update () {
-		
-		}
-
+			
 		void OnMouseDown(){
 			if (gameObject.tag.Equals ("quit")) {
 			Debug.Log ("hi");

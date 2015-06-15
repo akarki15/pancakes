@@ -48,10 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Main\GamePlay.cs" />
      <Compile Include="Assets\Scripts\Main\PanProperties.cs" />
-     <Compile Include="Assets\Scripts\Main\Player.cs" />
      <Compile Include="Assets\Scripts\Scene1\buttonListener.cs" />
      <Compile Include="Assets\Scripts\Scene1\userSettings.cs" />
-     <Compile Include="Assets\Scripts\winscreen\buttonListner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
