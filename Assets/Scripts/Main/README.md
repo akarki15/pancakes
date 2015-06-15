@@ -1,9 +1,7 @@
-## Scripts that handle the gameplay of pancakes game
-
 #### Link to Android App: 
 * https://play.google.com/store/apps/details?id=com.Company.pancakes
 
-### Language/Technology used: 
+#### Language/Technology used: 
 * Framework: Unity Game Engine
 * Language: c#
 
