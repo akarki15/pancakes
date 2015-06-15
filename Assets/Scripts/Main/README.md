@@ -1,3 +1,9 @@
+#### Summary: 
+* This folder contains the driving code for pancake sorting game I wrote in Unity3D last summer. While reading a blog, I came across the pancake sorting problem and thought it was a good idea for a game. So, I prototyped this game with barebone-models available in Unity. The game is available to download on Play store. 
+* Below is a brief overview of how the code works. 
+
+P.S. Bill Gates' only published paper was on pancake sorting problem.
+
 #### Link to Android App: 
 * https://play.google.com/store/apps/details?id=com.Company.pancakes
 
